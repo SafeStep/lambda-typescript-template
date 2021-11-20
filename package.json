@@ -1,0 +1,32 @@
+{
+  "name": "TYPESCRIPT-LAMBDA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SafeStep/lambda-typescript-template"
+  },
+  "keywords": [],
+  "author": "Ollie Pugh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SafeStep/lambda-typescript-template/issues"
+  },
+  "homepage": "https://github.com/SafeStep/lambda-typescript-template#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.85",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1033.0",
+    "typedi": "^0.10.0"
+  }
+}
